@@ -4,9 +4,10 @@ public class exercise3 {
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		int n=sc.nextInt();
+		sc.close();
 		int a=1;
 		int b=1;
-		//int i=0;
+		
 		int temp=-1;
 		if(n==1 || n==2) {
 			System.out.println(1);

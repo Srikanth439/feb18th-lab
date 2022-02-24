@@ -21,6 +21,7 @@ public class Exercise5 {
 		int n=sc.nextInt();
 		
 		System.out.println(calculateSum(n));
+		sc.close();
 		
 		
 	}

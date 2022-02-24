@@ -13,6 +13,7 @@ public class Exercise32 {
 		Scanner sc=new Scanner(System.in);
 		int n=sc.nextInt();
 		System.out.println(fic(1,1,n));
+		sc.close();
 		
 	}
 
