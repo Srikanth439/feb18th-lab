@@ -1,4 +1,4 @@
-package lab;
+package lab1;
 import java.util.*;
 public class exercise3 {
 	public static void main(String[] args) {

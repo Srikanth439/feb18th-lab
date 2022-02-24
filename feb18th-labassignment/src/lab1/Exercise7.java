@@ -1,15 +1,19 @@
-package lab;
+package lab1;
 import java.util.*;
-public class Exercise8 {
+public class Exercise7 {
 	public static boolean checkNumber(int n) {
+		int current=n%10;
+		n=n/10;
 		boolean t=true;
-		while(n>=2) {
-			if(n%2!=0) {
+		
+		while(n>0) {
+			if(current<=n%10) {
 				t=false;
 				break;
 				
 			}
-			n=n/2;
+			current=n%10;
+			n=n/10;
 		}
 		return t;
 		
@@ -19,8 +23,6 @@ public class Exercise8 {
 		int n=sc.nextInt();
 		System.out.println(checkNumber(n));
 		sc.close();
-		
-		
 		
 	}
 

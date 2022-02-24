@@ -1,4 +1,4 @@
-package lab;
+package lab1;
 import java.util.*;
 public class Exercise32 {
 	public static int fic(int a,int b,int n) {

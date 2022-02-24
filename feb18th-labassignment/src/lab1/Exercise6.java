@@ -1,4 +1,4 @@
-package lab;
+package lab1;
 import java.util.*;
 public class Exercise6 {
 	static int calculateDifference(int n) {

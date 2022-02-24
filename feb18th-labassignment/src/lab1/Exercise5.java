@@ -1,4 +1,4 @@
-package lab;
+package lab1;
 import java.util.*;
 public class Exercise5 {
 	public static int calculateSum (int n) {
