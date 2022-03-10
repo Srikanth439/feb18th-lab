@@ -11,18 +11,18 @@ public class Exercise2 {
 		for(int i=0;i<arr.length;i++) {
 			if(arr.length%2==0) {
 			if(i<arr.length/2) {
-				s=s+arr[i].toUpperCase();
+				s=s+arr[i].toUpperCase()+" ";
 			}
 			else {
-				s=s+arr[i].toLowerCase();
+				s=s+arr[i].toLowerCase()+" ";
 			}
 		}
 			else{
 				if(i<arr.length/2+1) {
-					s=s+arr[i].toUpperCase();
+					s=s+arr[i].toUpperCase()+" ";
 				}
 				else {
-					s=s+arr[i].toLowerCase();
+					s=s+arr[i].toLowerCase()+" ";
 				}
 				}
 			}
